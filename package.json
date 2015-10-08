@@ -13,6 +13,7 @@
     "url": "https://github.com/olalonde/olatest.git"
   },
   "devDependencies": {
+    "cz-conventional-changelog": "^1.1.2",
     "semantic-release": "^4.3.5"
   }
 }
