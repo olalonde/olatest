@@ -6,8 +6,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "semantic-release": "semantic-release pre && npm publish"
   },
-  "release": {
-  },
+  "release": {},
   "author": "",
   "license": "ISC",
   "repository": {
@@ -18,5 +17,5 @@
     "cz-conventional-changelog": "^1.1.2",
     "semantic-release": "^4.3.5"
   },
-  "version": "1.3.0"
+  "version": "2.0.0"
 }
