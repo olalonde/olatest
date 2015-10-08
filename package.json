@@ -6,6 +6,10 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
+  "release": {
+    "debug": false,
+    "verifyConditions": "semantic-release/dist/lib/plugin-noop"
+  },
   "author": "",
   "license": "ISC",
   "repository": {
@@ -15,5 +19,6 @@
   "devDependencies": {
     "cz-conventional-changelog": "^1.1.2",
     "semantic-release": "^4.3.5"
-  }
+  },
+  "version": "1.0.0"
 }
